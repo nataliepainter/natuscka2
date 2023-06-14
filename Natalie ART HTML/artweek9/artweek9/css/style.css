@@ -1,0 +1,33 @@
+:root {
+    --blue:darkcyan;
+    --white: #feffd1;
+    --mainhead: 4vmax;
+    smhead:1.5vmax;
+}
+
+body {
+    background-color: var(--blue);
+}
+h1 {
+    font-size: var(--mainhead);
+}
+h2 {
+    font-size: var(---smHead);
+    border-bottom: 2px solid var (--blue);
+}
+
+.container  {
+    color: var(--blue);
+    padding: 15px;
+    background-color: var(--white);
+
+}
+.container p {
+    font-size: var(---smHead);
+}
+
+button {
+    background-color: var(--white);
+}
+  
+

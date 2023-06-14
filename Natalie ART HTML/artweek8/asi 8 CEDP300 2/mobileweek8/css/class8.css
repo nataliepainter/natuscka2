@@ -1,0 +1,58 @@
+
+   * {
+    box-sizing: border-box;
+   }
+   /* ====== Mobile First ======= */
+
+   body {font-size: 18px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   
+   
+   
+   }
+   figure {
+
+      margin:0 0 .3em;
+   }
+    img {
+      width:100%;
+    }
+
+    .parent {
+      display: flex;
+      flex-flow: column wrap;
+    }
+    /* ========= TABLET SIZE INHERITS FROM MOBILE =========== */
+
+    @media screen and  (min-width: 600px) {
+.parent {
+  
+   flex-flow: row wrap;
+}
+figure {
+   width:calc(50% - .6em);
+   margin: .3em;
+}
+
+.columns {
+   column-count: 2;
+   margin:.3em;
+}
+    }
+
+    /* =========DESKTOP SIZE INHERTS FROM MOBILE AND TABLET ========= */
+
+    @media screen and (min-width: 980px) {
+figure { 
+   width:calc(25% -  .6em);
+   margin: .3em;
+} 
+.columns  {column-count: 3;}
+    }
+      
+    
+
+    
+      
+    

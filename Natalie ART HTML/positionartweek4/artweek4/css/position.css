@@ -1,0 +1,35 @@
+
+.parent {
+    background-color:#eee ;
+    width: 50%;
+    margin:0 auto;
+    position: relative;
+    /* rel position parent allows child to absolute position inside of it */
+}
+
+div {
+   width: 200px;
+   height: 200px;
+   background-color: #333;
+ color:#fff;
+ margin: 20px;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+   
+}
+
+.rel {
+  background-color: crimson;
+  position: relative;
+  left: 100px;
+  top:100px;
+}
+
+.abso  {
+  background-color: darkgreen;
+  position: absolute;
+  right:0;
+  top:0;
+  
+}

@@ -1,0 +1,77 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+/* ===== NAV INFO ====== */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 99;
+}
+
+/* ===== HEADER INFO ====== */
+
+header {
+    border:solid 1px red;
+    width:100%;
+    height: 100vh;
+    background: url(../images/color.jpg) no-repeat fixed center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+hgroup {
+    text-align: center;
+} 
+ section {
+    display: flex;
+ }
+  section.gallery {
+    justify-content: center;
+    padding: 1.5rem;
+    
+  } 
+  .gallery div {
+    width:200px;
+    height: 200px;
+    background-color: #333;
+    color:#fff;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  article { 
+    background: powderblue;
+    padding: 1.5rem;
+    width: 75%;
+    
+  }
+  aside {
+    background-color: darkcyan;
+    padding: 1.5rem;
+    width: 25%;
+  }
+
+
+  
+    
+ 
+    
+  
+
